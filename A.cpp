@@ -10,7 +10,7 @@ void solve(int cs){
     ll l, r;
     cin >> l >> r;
     ll n = (r / 2) - ((l - 1) / 2);
-    if(l % 2 == 0) l++;
+    if(l % 2 != 0) l++;
     cout << getSum(l, n) << endl;
 }
 
